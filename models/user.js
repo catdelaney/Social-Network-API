@@ -3,7 +3,7 @@ const { Schema, model }= require('mongoose');
 const userSchema = new Schema(
     {
       username: String,
-      email: Number,
+      email: String,
       thoughts: [
         {
           type: Schema.Types.ObjectId,
